@@ -1,0 +1,117 @@
+[
+    {
+        "file": "D:\\\\Games Repos\\\\VotexShooter\\\\Source\\\\VotexShooter\\\\BTService_CanSee.cpp",
+        "command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Games Repos\\VotexShooter\\.vscode\\compileCommands_Default\\VotexShooter.210.rsp\"",
+        "directory": "F:\\UE_4.27\\Engine\\Source"
+    },
+    {
+        "file": "D:\\\\Games Repos\\\\VotexShooter\\\\Source\\\\VotexShooter\\\\BTService_CanSee.h",
+        "command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Games Repos\\VotexShooter\\.vscode\\compileCommands_Default\\VotexShooter.210.rsp\"",
+        "directory": "F:\\UE_4.27\\Engine\\Source"
+    },
+    {
+        "file": "D:\\\\Games Repos\\\\VotexShooter\\\\Source\\\\VotexShooter\\\\BTService_PlayerLocation.cpp",
+        "command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Games Repos\\VotexShooter\\.vscode\\compileCommands_Default\\VotexShooter.210.rsp\"",
+        "directory": "F:\\UE_4.27\\Engine\\Source"
+    },
+    {
+        "file": "D:\\\\Games Repos\\\\VotexShooter\\\\Source\\\\VotexShooter\\\\BTService_PlayerLocation.h",
+        "command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Games Repos\\VotexShooter\\.vscode\\compileCommands_Default\\VotexShooter.210.rsp\"",
+        "directory": "F:\\UE_4.27\\Engine\\Source"
+    },
+    {
+        "file": "D:\\\\Games Repos\\\\VotexShooter\\\\Source\\\\VotexShooter\\\\BTTask_ClearValue.cpp",
+        "command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Games Repos\\VotexShooter\\.vscode\\compileCommands_Default\\VotexShooter.210.rsp\"",
+        "directory": "F:\\UE_4.27\\Engine\\Source"
+    },
+    {
+        "file": "D:\\\\Games Repos\\\\VotexShooter\\\\Source\\\\VotexShooter\\\\BTTask_ClearValue.h",
+        "command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Games Repos\\VotexShooter\\.vscode\\compileCommands_Default\\VotexShooter.210.rsp\"",
+        "directory": "F:\\UE_4.27\\Engine\\Source"
+    },
+    {
+        "file": "D:\\\\Games Repos\\\\VotexShooter\\\\Source\\\\VotexShooter\\\\BTTaskNode_Shoot.cpp",
+        "command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Games Repos\\VotexShooter\\.vscode\\compileCommands_Default\\VotexShooter.210.rsp\"",
+        "directory": "F:\\UE_4.27\\Engine\\Source"
+    },
+    {
+        "file": "D:\\\\Games Repos\\\\VotexShooter\\\\Source\\\\VotexShooter\\\\BTTaskNode_Shoot.h",
+        "command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Games Repos\\VotexShooter\\.vscode\\compileCommands_Default\\VotexShooter.210.rsp\"",
+        "directory": "F:\\UE_4.27\\Engine\\Source"
+    },
+    {
+        "file": "D:\\\\Games Repos\\\\VotexShooter\\\\Source\\\\VotexShooter\\\\GalaxyShooter.cpp",
+        "command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Games Repos\\VotexShooter\\.vscode\\compileCommands_Default\\VotexShooter.210.rsp\"",
+        "directory": "F:\\UE_4.27\\Engine\\Source"
+    },
+    {
+        "file": "D:\\\\Games Repos\\\\VotexShooter\\\\Source\\\\VotexShooter\\\\GalaxyShooter.h",
+        "command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Games Repos\\VotexShooter\\.vscode\\compileCommands_Default\\VotexShooter.210.rsp\"",
+        "directory": "F:\\UE_4.27\\Engine\\Source"
+    },
+    {
+        "file": "D:\\\\Games Repos\\\\VotexShooter\\\\Source\\\\VotexShooter\\\\GunBase.cpp",
+        "command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Games Repos\\VotexShooter\\.vscode\\compileCommands_Default\\VotexShooter.210.rsp\"",
+        "directory": "F:\\UE_4.27\\Engine\\Source"
+    },
+    {
+        "file": "D:\\\\Games Repos\\\\VotexShooter\\\\Source\\\\VotexShooter\\\\GunBase.h",
+        "command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Games Repos\\VotexShooter\\.vscode\\compileCommands_Default\\VotexShooter.210.rsp\"",
+        "directory": "F:\\UE_4.27\\Engine\\Source"
+    },
+    {
+        "file": "D:\\\\Games Repos\\\\VotexShooter\\\\Source\\\\VotexShooter\\\\KillEmll_GameMode.cpp",
+        "command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Games Repos\\VotexShooter\\.vscode\\compileCommands_Default\\VotexShooter.210.rsp\"",
+        "directory": "F:\\UE_4.27\\Engine\\Source"
+    },
+    {
+        "file": "D:\\\\Games Repos\\\\VotexShooter\\\\Source\\\\VotexShooter\\\\KillEmll_GameMode.h",
+        "command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Games Repos\\VotexShooter\\.vscode\\compileCommands_Default\\VotexShooter.210.rsp\"",
+        "directory": "F:\\UE_4.27\\Engine\\Source"
+    },
+    {
+        "file": "D:\\\\Games Repos\\\\VotexShooter\\\\Source\\\\VotexShooter\\\\ShooterAIController.cpp",
+        "command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Games Repos\\VotexShooter\\.vscode\\compileCommands_Default\\VotexShooter.210.rsp\"",
+        "directory": "F:\\UE_4.27\\Engine\\Source"
+    },
+    {
+        "file": "D:\\\\Games Repos\\\\VotexShooter\\\\Source\\\\VotexShooter\\\\ShooterAIController.h",
+        "command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Games Repos\\VotexShooter\\.vscode\\compileCommands_Default\\VotexShooter.210.rsp\"",
+        "directory": "F:\\UE_4.27\\Engine\\Source"
+    },
+    {
+        "file": "D:\\\\Games Repos\\\\VotexShooter\\\\Source\\\\VotexShooter\\\\ShooterPlayerController.cpp",
+        "command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Games Repos\\VotexShooter\\.vscode\\compileCommands_Default\\VotexShooter.210.rsp\"",
+        "directory": "F:\\UE_4.27\\Engine\\Source"
+    },
+    {
+        "file": "D:\\\\Games Repos\\\\VotexShooter\\\\Source\\\\VotexShooter\\\\ShooterPlayerController.h",
+        "command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Games Repos\\VotexShooter\\.vscode\\compileCommands_Default\\VotexShooter.210.rsp\"",
+        "directory": "F:\\UE_4.27\\Engine\\Source"
+    },
+    {
+        "file": "D:\\\\Games Repos\\\\VotexShooter\\\\Source\\\\VotexShooter\\\\VotexShooter.Build.cs",
+        "command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Games Repos\\VotexShooter\\.vscode\\compileCommands_Default\\VotexShooter.210.rsp\"",
+        "directory": "F:\\UE_4.27\\Engine\\Source"
+    },
+    {
+        "file": "D:\\\\Games Repos\\\\VotexShooter\\\\Source\\\\VotexShooter\\\\VotexShooter.cpp",
+        "command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Games Repos\\VotexShooter\\.vscode\\compileCommands_Default\\VotexShooter.210.rsp\"",
+        "directory": "F:\\UE_4.27\\Engine\\Source"
+    },
+    {
+        "file": "D:\\\\Games Repos\\\\VotexShooter\\\\Source\\\\VotexShooter\\\\VotexShooter.h",
+        "command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Games Repos\\VotexShooter\\.vscode\\compileCommands_Default\\VotexShooter.210.rsp\"",
+        "directory": "F:\\UE_4.27\\Engine\\Source"
+    },
+    {
+        "file": "D:\\\\Games Repos\\\\VotexShooter\\\\Source\\\\VotexShooter\\\\VotexShooterGameModeBase.cpp",
+        "command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Games Repos\\VotexShooter\\.vscode\\compileCommands_Default\\VotexShooter.210.rsp\"",
+        "directory": "F:\\UE_4.27\\Engine\\Source"
+    },
+    {
+        "file": "D:\\\\Games Repos\\\\VotexShooter\\\\Source\\\\VotexShooter\\\\VotexShooterGameModeBase.h",
+        "command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Games Repos\\VotexShooter\\.vscode\\compileCommands_Default\\VotexShooter.210.rsp\"",
+        "directory": "F:\\UE_4.27\\Engine\\Source"
+    }
+]

@@ -1,0 +1,29 @@
+{
+	"folders": [
+		{
+			"name": "VotexShooter",
+			"path": "."
+		},
+		{
+			"name": "UE4",
+			"path": "F:\\UE_4.27"
+		}
+	],
+	"settings": {
+		"typescript.tsc.autoDetect": "off",
+		"C_Cpp.default.forcedInclude": [
+			"${default}",
+			"D:\\Games Repos\\VotexShooter\\Intermediate\\Build\\Win64\\UE4Editor\\Development\\VotexShooter\\Definitions.VotexShooter.h",
+			"D:\\Games Repos\\VotexShooter\\Intermediate\\Build\\Win64\\VotexShooterEditor\\Development\\Engine\\SharedPCH.Engine.ShadowErrors.h"
+		],
+		"files.associations": {
+			"*.rh": "cpp"
+		}
+	},
+	"extensions": {
+		"recommendations": [
+			"ms-vscode.cpptools",
+			"ms-dotnettools.csharp"
+		]
+	}
+}

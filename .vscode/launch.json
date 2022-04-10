@@ -1,0 +1,123 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "VotexShooter (Debug)",
+            "request": "launch",
+            "preLaunchTask": "VotexShooter Win64 Debug Build",
+            "program": "D:\\Games Repos\\VotexShooter\\Binaries\\Win64\\UE4-Win64-Debug.exe",
+            "args": [],
+            "cwd": "F:\\UE_4.27",
+            "stopAtEntry": false,
+            "type": "cppvsdbg",
+            "visualizerFile": "F:\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis",
+            "console": "newExternalWindow"
+        },
+        {
+            "name": "VotexShooter (DebugGame)",
+            "request": "launch",
+            "preLaunchTask": "VotexShooter Win64 DebugGame Build",
+            "program": "D:\\Games Repos\\VotexShooter\\Binaries\\Win64\\UE4-Win64-DebugGame.exe",
+            "args": [],
+            "cwd": "F:\\UE_4.27",
+            "stopAtEntry": false,
+            "type": "cppvsdbg",
+            "visualizerFile": "F:\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis",
+            "console": "newExternalWindow"
+        },
+        {
+            "name": "VotexShooter (Development)",
+            "request": "launch",
+            "preLaunchTask": "VotexShooter Win64 Development Build",
+            "program": "D:\\Games Repos\\VotexShooter\\Binaries\\Win64\\UE4.exe",
+            "args": [],
+            "cwd": "F:\\UE_4.27",
+            "stopAtEntry": false,
+            "type": "cppvsdbg",
+            "visualizerFile": "F:\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis",
+            "console": "newExternalWindow"
+        },
+        {
+            "name": "VotexShooter (Shipping)",
+            "request": "launch",
+            "preLaunchTask": "VotexShooter Win64 Shipping Build",
+            "program": "D:\\Games Repos\\VotexShooter\\Binaries\\Win64\\UE4-Win64-Shipping.exe",
+            "args": [],
+            "cwd": "F:\\UE_4.27",
+            "stopAtEntry": false,
+            "type": "cppvsdbg",
+            "visualizerFile": "F:\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis",
+            "console": "newExternalWindow"
+        },
+        {
+            "name": "VotexShooter (Test)",
+            "request": "launch",
+            "preLaunchTask": "VotexShooter Win64 Test Build",
+            "program": "D:\\Games Repos\\VotexShooter\\Binaries\\Win64\\UE4-Win64-Test.exe",
+            "args": [],
+            "cwd": "F:\\UE_4.27",
+            "stopAtEntry": false,
+            "type": "cppvsdbg",
+            "visualizerFile": "F:\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis",
+            "console": "newExternalWindow"
+        },
+        {
+            "name": "VotexShooterEditor (Debug)",
+            "request": "launch",
+            "preLaunchTask": "VotexShooterEditor Win64 Debug Build",
+            "program": "F:\\UE_4.27\\Engine\\Binaries\\Win64\\UE4Editor-Win64-Debug.exe",
+            "args": [
+                "D:\\Games Repos\\VotexShooter\\VotexShooter.uproject"
+            ],
+            "cwd": "F:\\UE_4.27",
+            "stopAtEntry": false,
+            "type": "cppvsdbg",
+            "visualizerFile": "F:\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis",
+            "console": "newExternalWindow"
+        },
+        {
+            "name": "VotexShooterEditor (DebugGame)",
+            "request": "launch",
+            "preLaunchTask": "VotexShooterEditor Win64 DebugGame Build",
+            "program": "F:\\UE_4.27\\Engine\\Binaries\\Win64\\UE4Editor-Win64-DebugGame.exe",
+            "args": [
+                "D:\\Games Repos\\VotexShooter\\VotexShooter.uproject"
+            ],
+            "cwd": "F:\\UE_4.27",
+            "stopAtEntry": false,
+            "type": "cppvsdbg",
+            "visualizerFile": "F:\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis",
+            "console": "newExternalWindow"
+        },
+        {
+            "name": "VotexShooterEditor (Development)",
+            "request": "launch",
+            "preLaunchTask": "VotexShooterEditor Win64 Development Build",
+            "program": "F:\\UE_4.27\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+            "args": [
+                "D:\\Games Repos\\VotexShooter\\VotexShooter.uproject"
+            ],
+            "cwd": "F:\\UE_4.27",
+            "stopAtEntry": false,
+            "type": "cppvsdbg",
+            "visualizerFile": "F:\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis",
+            "console": "newExternalWindow"
+        },
+        {
+            "name": "Generate Project Files",
+            "type": "clr",
+            "request": "launch",
+            "program": "F:\\UE_4.27\\Engine\\Binaries\\DotNET\\UnrealBuildTool.exe",
+            "console": "externalTerminal",
+            "args": [
+                "-projectfiles",
+                "-vscode",
+                "-project=D:\\Games Repos\\VotexShooter\\VotexShooter.uproject",
+                "-game",
+                "-engine"
+            ],
+            "internalConsoleOptions": "openOnSessionStart",
+            "cwd": "F:\\UE_4.27"
+        }
+    ]
+}
