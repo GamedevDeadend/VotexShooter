@@ -58,14 +58,21 @@ UPROPERTY(EditAnywhere, BlueprintInternalUseOnly, Category = "Health")
 	void Exit();
 	void ResetLvl();
 
-	void LookUp(float axis);
-	void LookRight(float axis);
+	void LookUpRate(float axis);
+	void LookRightRate(float axis);
+	
 
 	UPROPERTY(EditDefaultsOnly)
 	TSubclassOf<AGunBase> GunClass;
 
 	UPROPERTY()
 	AGunBase* Gun;
+
+	UPROPERTY(EditAnywhere)
+	float RotationRate = 10;
+
+	// UPROPERTY(EditAnywhere)
+	// float RightRotateRate = 10;
 
 	AShooterPlayerController* OurController;
 	AActor* OurPlayer;

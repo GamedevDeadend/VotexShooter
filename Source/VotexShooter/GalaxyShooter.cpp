@@ -44,6 +44,8 @@ void AGalaxyShooter::SetupPlayerInputComponent(UInputComponent *PlayerInputCompo
 	PlayerInputComponent->BindAxis(TEXT("Move Forward"), this, &AGalaxyShooter::MoveForward);
 	PlayerInputComponent->BindAxis(TEXT("Move Right"), this, &AGalaxyShooter::MoveRight);
 	PlayerInputComponent->BindAxis(TEXT("Look Up"), this, &APawn::AddControllerPitchInput);
+	PlayerInputComponent->BindAxis(TEXT("Look Up Rate"), this, &AGalaxyShooter::LookUpRate);
+	PlayerInputComponent->BindAxis(TEXT("Look Right Rate"), this, &AGalaxyShooter::LookRightRate);
 	PlayerInputComponent->BindAxis(TEXT("Look Right"), this, &APawn::AddControllerYawInput);
 
 	PlayerInputComponent->BindAction(TEXT("Jump"), EInputEvent::IE_Pressed, this, &ACharacter ::Jump);
@@ -52,7 +54,7 @@ void AGalaxyShooter::SetupPlayerInputComponent(UInputComponent *PlayerInputCompo
 	PlayerInputComponent->BindAction(TEXT("Restart"), EInputEvent::IE_Pressed, this, &AGalaxyShooter::ResetLvl);
 }
 
-float AGalaxyShooter::TakeDamage(float DamageAmount, FDamageEvent const &DamageEvent, AController *EventInstigator, AActor *DamageCauser)
+float AGalaxyShooter:: (float DamageAmount, FDamageEvent const &DamageEvent, AController *EventInstigator, AActor *DamageCauser)
 {
 	float DamageToApply = Super::TakeDamage(DamageAmount, DamageEvent, EventInstigator, DamageCauser);
 	DamageToApply = FMath::Min(Health, DamageToApply);
@@ -115,6 +117,16 @@ void AGalaxyShooter::ResetLvl()
 {
 	if(OurController != nullptr)
 	OurController->LvlRestart();
+}
+
+void AGalaxyShooter::LookUpRate(float axis)
+{
+	AddControllerPitchInput(axis*RotationRate*GetWorld()->GetDeltaSeconds());
+}
+
+void AGalaxyShooter::LookRightRate(float axis)
+{
+	AddControllerYawInput(axis*RotationRate*GetWorld()->GetDeltaSeconds());
 }
 
 void AGalaxyShooter::Fire()
