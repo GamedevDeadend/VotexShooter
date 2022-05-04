@@ -20,6 +20,8 @@ void AGalaxyShooter::BeginPlay()
 
 	Super::BeginPlay();
 
+	// UE_LOG(LogTemp, Warning, TEXT("this is : %s"), *this->GetName()); Only For Debug
+
 	OurController = Cast<AShooterPlayerController>(this->GetController());
 	OurPlayer = Cast<AActor>(this);
 	Health = MaxHealth;
@@ -54,7 +56,7 @@ void AGalaxyShooter::SetupPlayerInputComponent(UInputComponent *PlayerInputCompo
 	PlayerInputComponent->BindAction(TEXT("Restart"), EInputEvent::IE_Pressed, this, &AGalaxyShooter::ResetLvl);
 }
 
-float AGalaxyShooter:: (float DamageAmount, FDamageEvent const &DamageEvent, AController *EventInstigator, AActor *DamageCauser)
+float AGalaxyShooter :: TakeDamage (float DamageAmount, FDamageEvent const &DamageEvent, AController *EventInstigator, AActor *DamageCauser)
 {
 	float DamageToApply = Super::TakeDamage(DamageAmount, DamageEvent, EventInstigator, DamageCauser);
 	DamageToApply = FMath::Min(Health, DamageToApply);
@@ -67,19 +69,20 @@ float AGalaxyShooter:: (float DamageAmount, FDamageEvent const &DamageEvent, ACo
 		if (GameMode != nullptr)
 		{
 			GameMode->PawnKilled(this);
-		}
 
-		if(OurPlayer-> GetName() != TEXT("BP_PlayerShooter_C_0") )
-		{
-			DetachFromControllerPendingDestroy();
-			GetCapsuleComponent()->SetCollisionEnabled(ECollisionEnabled::NoCollision);
-			return 0.0f;
-		}
-
-		else
-		{
-			GetCapsuleComponent()->SetCollisionEnabled(ECollisionEnabled::NoCollision);
-			return 0.0f;
+			if( OurPlayer-> GetName() != TEXT("BP_PlayerShooter_C_0") )
+			{
+				DetachFromControllerPendingDestroy();
+				GetCapsuleComponent()->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+				return 0.0f;
+			}
+			
+			else
+			{
+				// DetachFromControllerPendingDestroy();
+				GetCapsuleComponent()->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+				return 0.0f;
+			}
 		}
 
 	}
